@@ -1,0 +1,30 @@
+Slide 1: Executive Summary
+- Overview of investment strategy and objectives
+- ML algorithms used: Lasso, Ridge, ElasticNet, XGBoost
+- Key portfolio performance vs. S&P 500 (2010–2023)
+- Highlight Sharpe ratio, annualized return, and other standout metrics
+
+Slide 2: Investment Strategy
+- Description of long-short portfolio approach (top/bottom 50 stocks)
+- Predictive signals: 147 firm characteristics
+- Stock selection and rebalancing methodology
+- Average top 10 holdings (OOS 2010–2023)
+- Cumulative returns plot: strategy vs. S&P 500
+
+Slide 3: Data & Methodology
+- Data sources, time period, and sample size
+- Expanding window training/validation/test split
+- Rationale for chosen ML algorithms
+- OOS R² statistics for all models
+- Any innovations or deviations from starter code
+
+Slide 4: Portfolio Performance Statistics
+- Required metrics: annualized return, stdev, alpha, Sharpe, info ratio, max drawdown, max 1-mo loss, turnover
+- Comparison: portfolio vs. S&P 500 (2010–2023)
+- Table of performance statistics
+
+Slide 5: Discussion
+- Did the strategy meet expectations? Why or why not?
+- Most important signals (feature importances)
+- Key positions and macro events affecting performance
+- Potential improvements and next steps 

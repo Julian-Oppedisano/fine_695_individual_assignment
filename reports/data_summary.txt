@@ -1,0 +1,181 @@
+=== Data Summary Report ===
+
+1. Dataset Shapes:
+MMA Sample V2: (273373, 165)
+Factor Characteristic List: (147, 1)
+Market Industry: (288, 5)
+
+2. Missing Values Summary:
+MMA Sample V2:
+                      Missing Values  Percentage
+stock_ticker                      14    0.005121
+eps_stdevest                    3117    1.140200
+eps_actual                      2142    0.783545
+chcsho_12m                       765    0.279837
+eqnpo_12m                        765    0.279837
+ret_3_1                            8    0.002926
+ret_6_1                            8    0.002926
+ret_9_1                            8    0.002926
+ret_12_1                         674    0.246550
+ret_12_7                         730    0.267034
+ret_60_12                      31182   11.406393
+seas_1_1an                        93    0.034019
+seas_1_1na                       103    0.037677
+seas_2_5an                     30964   11.326649
+seas_2_5na                     31099   11.376032
+at_gr1                           546    0.199727
+sale_gr1                        2046    0.748428
+capx_gr1                       15187    5.555413
+inv_gr1                        62645   22.915577
+debt_gr3                       27670   10.121702
+sale_gr3                        9125    3.337930
+capx_gr3                       24050    8.797504
+inv_gr1a                        5928    2.168466
+lti_gr1a                       27661   10.118410
+sti_gr1a                        7257    2.654615
+coa_gr1a                       19856    7.263336
+col_gr1a                       21922    8.019080
+cowc_gr1a                      23977    8.770800
+ncoa_gr1a                      19850    7.261141
+ncol_gr1a                      23020    8.420729
+nncoa_gr1a                     25069    9.170255
+fnl_gr1a                         558    0.204117
+nfna_gr1a                        558    0.204117
+tax_gr1a                        1240    0.453593
+be_gr1a                         9652    3.530707
+ebit_sale                        845    0.309101
+gp_at                            188    0.068771
+cop_at                          5624    2.057262
+ope_be                         34773   12.719983
+ni_be                           6624    2.423063
+ebit_bev                        6623    2.422697
+netis_at                        5843    2.137373
+eqnetis_at                      5843    2.137373
+dbnetis_at                       238    0.087061
+oaccruals_at                    5623    2.056897
+oaccruals_ni                    5624    2.057262
+taccruals_at                    5901    2.158589
+taccruals_ni                    5906    2.160418
+noa_at                         24144    8.831889
+opex_at                          188    0.068771
+at_turnover                      222    0.081208
+sale_bev                        6588    2.409894
+rd_sale                       130983   47.913656
+cash_at                          123    0.044993
+sale_emp_gr1                    7677    2.808251
+emp_gr1                        19058    6.971427
+ni_inc8q                       12028    4.399849
+noa_gr1a                       25075    9.172449
+ppeinv_gr1a                    28415   10.394223
+lnoa_gr1a                      18543    6.783040
+capx_gr2                       18182    6.650986
+saleq_gr1                       2083    0.761963
+niq_be                          7815    2.858731
+niq_at                           525    0.192045
+niq_be_chg1                    12666    4.633230
+niq_at_chg1                     2663    0.974127
+rd5_at                        143602   52.529694
+dsale_dinv                     63699   23.301131
+dsale_drec                      7859    2.874827
+dgp_dsale                       8079    2.955303
+dsale_dsga                     56720   20.748208
+saleq_su                        6278    2.296496
+niq_su                          5668    2.073358
+capex_abn                      25221    9.225856
+op_atl1                          573    0.209604
+gp_atl1                          573    0.209604
+ope_bel1                       36069   13.194061
+cop_atl1                        5923    2.166637
+pi_nix                         32363   11.838404
+ocf_at                           869    0.317881
+op_at                            188    0.068771
+ocf_at_chg1                     2099    0.767815
+at_be                           6564    2.401115
+ocfq_saleq_std                  8749    3.200389
+tangibility                    27809   10.172548
+earnings_variability           24578    8.990646
+aliq_at                        19615    7.175178
+f_score                        27794   10.167061
+o_score                        25438    9.305235
+z_score                        24274    8.879443
+intrinsic_value                35978   13.160773
+kz_index                       15554    5.689662
+ni_ar1                         24231    8.863714
+ni_ivol                        24231    8.863714
+at_me                            120    0.043896
+be_me                           6564    2.401115
+debt_me                          119    0.043530
+netdebt_me                       119    0.043530
+sale_me                          203    0.074258
+ni_me                            187    0.068405
+ocf_me                           869    0.317881
+fcf_me                          6788    2.483054
+eqpo_me                        18621    6.811572
+eqnpo_me                        5900    2.158223
+rd_me                         130445   47.716856
+bev_mev                         6672    2.440621
+ebitda_mev                      1478    0.540653
+aliq_mat                       27252    9.968797
+eq_dur                         11720    4.287183
+beta_60m                       15593    5.703928
+resff3_12_1                     8065    2.950182
+resff3_6_1                      8065    2.950182
+mispricing_mgmt                  314    0.114861
+mispricing_perf                    5    0.001829
+ivol_capm_21d                      3    0.001097
+iskew_capm_21d                     3    0.001097
+coskew_21d                         3    0.001097
+beta_dimson_21d                    3    0.001097
+ivol_ff3_21d                       3    0.001097
+iskew_ff3_21d                      3    0.001097
+ivol_hxz4_21d                      3    0.001097
+iskew_hxz4_21d                     3    0.001097
+rmax5_21d                          3    0.001097
+rmax1_21d                          3    0.001097
+rvol_21d                           3    0.001097
+rskew_21d                          3    0.001097
+zero_trades_21d                    1    0.000366
+dolvol_126d                       15    0.005487
+dolvol_var_126d                   15    0.005487
+turnover_126d                     15    0.005487
+turnover_var_126d                 15    0.005487
+zero_trades_126d                  15    0.005487
+zero_trades_252d                  41    0.014998
+ami_126d                          15    0.005487
+ivol_capm_252d                    41    0.014998
+prc_highprc_252d                  41    0.014998
+betadown_252d                     46    0.016827
+corr_1260d                     15395    5.631500
+betabab_1260d                  15433    5.645400
+rmax5_rvol_21d                    44    0.016095
+qmj                            22496    8.229050
+qmj_prof                         188    0.068771
+qmj_growth                     22496    8.229050
+qmj_safety                        34    0.012437
+
+Factor Characteristic List:
+Empty DataFrame
+Columns: [Missing Values, Percentage]
+Index: []
+
+Market Industry:
+Empty DataFrame
+Columns: [Missing Values, Percentage]
+Index: []
+
+3. Date Ranges:
+MMA Sample V2: 2000-01-31 00:00:00 to 2023-12-29 00:00:00
+Market Industry: 2000-01-01 00:00:00 to 2023-12-01 00:00:00
+
+4. Unique permno Statistics:
+Total unique permno: 3349
+
+Monthly permno counts:
+count     288.000000
+mean      949.211806
+std        83.607680
+min       851.000000
+25%       883.750000
+50%       925.000000
+75%       974.000000
+max      1319.000000

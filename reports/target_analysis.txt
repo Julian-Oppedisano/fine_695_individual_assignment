@@ -1,0 +1,20 @@
+=== Target Variable Analysis Summary ===
+
+Note: The ret_eom column appears to be incorrectly populated with date values.
+Using stock_exret as the target variable instead, which contains the actual returns.
+
+Basic Statistics:
+count    273373.000000
+mean          0.006852
+std           0.112426
+min          -0.982995
+25%          -0.047259
+50%           0.008008
+75%           0.060753
+max           2.997358
+
+Outlier Analysis:
+Number of outliers: 15164
+Percentage of outliers: 5.55%
+Lower bound: -0.2093
+Upper bound: 0.2228

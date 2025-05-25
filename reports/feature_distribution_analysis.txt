@@ -1,0 +1,1679 @@
+=== Feature Distribution Analysis ===
+
+Feature: shrcd
+Summary: count    273373.0
+mean         11.0
+std           0.0
+min          11.0
+25%          11.0
+50%          11.0
+75%          11.0
+max          11.0
+Skewness: 0.00
+Outliers: 0 (0.00%)
+Lower bound: 11.0000, Upper bound: 11.0000
+
+Feature: exchcd
+Summary: count    273373.000000
+mean          1.598666
+std           0.914256
+min           1.000000
+25%           1.000000
+50%           1.000000
+75%           3.000000
+max           3.000000
+Skewness: 0.88
+Outliers: 0 (0.00%)
+Lower bound: -2.0000, Upper bound: 6.0000
+
+Feature: mspread
+Summary: count    273373.000000
+mean          0.007423
+std           0.004807
+min           0.000000
+25%           0.004434
+50%           0.006149
+75%           0.008839
+max           0.084777
+Skewness: 2.63
+Outliers: 16313 (5.97%)
+Lower bound: -0.0022, Upper bound: 0.0154
+
+Feature: year
+Summary: count    273373.000000
+mean       2011.513782
+std           7.151386
+min        2000.000000
+25%        2005.000000
+50%        2012.000000
+75%        2018.000000
+max        2023.000000
+Skewness: -0.02
+Outliers: 0 (0.00%)
+Lower bound: 1985.5000, Upper bound: 2037.5000
+
+Feature: month
+Summary: count    273373.000000
+mean          6.490908
+std           3.453314
+min           1.000000
+25%           3.000000
+50%           6.000000
+75%           9.000000
+max          12.000000
+Skewness: 0.00
+Outliers: 0 (0.00%)
+Lower bound: -6.0000, Upper bound: 18.0000
+
+Feature: rf
+Summary: count    273373.000000
+mean          0.001411
+std           0.001588
+min           0.000000
+25%           0.000100
+50%           0.000900
+75%           0.002200
+max           0.005600
+Skewness: 0.94
+Outliers: 2241 (0.82%)
+Lower bound: -0.0031, Upper bound: 0.0054
+
+Feature: eps_medest
+Summary: count    273373.000000
+mean          1.067199
+std         998.518439
+min     -334688.790000
+25%           0.240000
+50%           0.520000
+75%           0.980000
+max       13237.500000
+Skewness: -296.56
+Outliers: 23088 (8.45%)
+Lower bound: -0.8700, Upper bound: 2.0900
+
+Feature: eps_stdevest
+Summary: count    273373.000000
+mean          0.595631
+std          71.643409
+min           0.000000
+25%           0.010000
+50%           0.030000
+75%           0.060000
+max       31104.660000
+Skewness: 352.44
+Outliers: 28968 (10.60%)
+Lower bound: -0.0650, Upper bound: 0.1350
+
+Feature: prc
+Summary: count    273373.000000
+mean        267.964871
+std        7425.091816
+min           0.349500
+25%          27.980000
+50%          44.750000
+75%          72.910004
+max      546725.000000
+Skewness: 47.46
+Outliers: 22847 (8.36%)
+Lower bound: -39.4150, Upper bound: 140.3050
+
+Feature: market_equity
+Summary: count    2.733730e+05
+mean     2.016690e+04
+std      6.473377e+04
+min      7.452137e+02
+25%      3.209314e+03
+50%      5.900778e+03
+75%      1.506715e+04
+max      3.071345e+06
+Skewness: 18.62
+Outliers: 33525 (12.26%)
+Lower bound: -14577.4369, Upper bound: 32853.8976
+
+Feature: div12m_me
+Summary: count    273373.000000
+mean          0.014514
+std           0.023877
+min           0.000000
+25%           0.000000
+50%           0.008654
+75%           0.022157
+max           1.441557
+Skewness: 11.42
+Outliers: 8063 (2.95%)
+Lower bound: -0.0332, Upper bound: 0.0554
+
+Feature: chcsho_12m
+Summary: count    273373.000000
+mean          0.038588
+std           0.330988
+min          -0.658050
+25%          -0.020014
+50%           0.002284
+75%           0.018825
+max          15.265672
+Skewness: 22.26
+Outliers: 43934 (16.07%)
+Lower bound: -0.0783, Upper bound: 0.0771
+
+Feature: eqnpo_12m
+Summary: count    273373.000000
+mean         -0.004654
+std           0.150718
+min          -3.405032
+25%          -0.013080
+50%           0.013703
+75%           0.041803
+max           2.183963
+Skewness: -5.18
+Outliers: 33535 (12.27%)
+Lower bound: -0.0954, Upper bound: 0.1241
+
+Feature: ret_1_0
+Summary: count    273373.000000
+mean          0.016558
+std           0.123675
+min          -0.834807
+25%          -0.041269
+50%           0.012812
+75%           0.066720
+max          16.250530
+Skewness: 10.76
+Outliers: 15478 (5.66%)
+Lower bound: -0.2033, Upper bound: 0.2287
+
+Feature: ret_3_1
+Summary: count    273373.000000
+mean          0.032576
+std           0.178657
+min          -0.905250
+25%          -0.051892
+50%           0.024913
+75%           0.102564
+max          18.625604
+Skewness: 7.89
+Outliers: 15308 (5.60%)
+Lower bound: -0.2836, Upper bound: 0.3342
+
+Feature: ret_6_1
+Summary: count    273373.000000
+mean          0.085034
+std           0.354472
+min          -0.965441
+25%          -0.063897
+50%           0.058709
+75%           0.187583
+max          47.652695
+Skewness: 20.66
+Outliers: 15403 (5.63%)
+Lower bound: -0.4411, Upper bound: 0.5648
+
+Feature: ret_9_1
+Summary: count    273373.000000
+mean          0.142588
+std           0.540346
+min          -0.983078
+25%          -0.067029
+50%           0.091167
+75%           0.262626
+max          79.049261
+Skewness: 27.18
+Outliers: 15964 (5.84%)
+Lower bound: -0.5615, Upper bound: 0.7571
+
+Feature: ret_12_1
+Summary: count    273373.000000
+mean          0.206841
+std           0.770134
+min          -0.989569
+25%          -0.065262
+50%           0.121983
+75%           0.333972
+max         105.711118
+Skewness: 31.56
+Outliers: 16159 (5.91%)
+Lower bound: -0.6641, Upper bound: 0.9328
+
+Feature: ret_12_7
+Summary: count    273373.000000
+mean          0.088464
+std           0.354370
+min          -0.954864
+25%          -0.062993
+50%           0.059937
+75%           0.189487
+max          47.652695
+Skewness: 18.77
+Outliers: 16052 (5.87%)
+Lower bound: -0.4417, Upper bound: 0.5682
+
+Feature: ret_60_12
+Summary: count    273373.000000
+mean          0.992229
+std           2.694252
+min          -0.993009
+25%           0.169943
+50%           0.581137
+75%           1.125950
+max         211.289019
+Skewness: 22.27
+Outliers: 20851 (7.63%)
+Lower bound: -1.2641, Upper bound: 2.5600
+
+Feature: seas_1_1an
+Summary: count    273373.000000
+mean          0.017228
+std           0.126643
+min          -0.834807
+25%          -0.041963
+50%           0.013133
+75%           0.067900
+max          16.250530
+Skewness: 10.39
+Outliers: 15531 (5.68%)
+Lower bound: -0.2068, Upper bound: 0.2327
+
+Feature: seas_1_1na
+Summary: count    273373.000000
+mean          0.016562
+std           0.038640
+min          -0.262448
+25%          -0.001739
+50%           0.013898
+75%           0.030528
+max           1.684171
+Skewness: 4.88
+Outliers: 16908 (6.18%)
+Lower bound: -0.0501, Upper bound: 0.0789
+
+Feature: seas_2_5an
+Summary: count    273373.000000
+mean          0.015854
+std           0.054383
+min          -0.417586
+25%          -0.010568
+50%           0.013492
+75%           0.038680
+max           3.929293
+Skewness: 2.42
+Outliers: 18279 (6.69%)
+Lower bound: -0.0844, Upper bound: 0.1126
+
+Feature: seas_2_5na
+Summary: count    273373.000000
+mean          0.015637
+std           0.015310
+min          -0.082346
+25%           0.007608
+50%           0.013805
+75%           0.021027
+max           0.412939
+Skewness: 2.72
+Outliers: 17952 (6.57%)
+Lower bound: -0.0125, Upper bound: 0.0412
+
+Feature: capx_gr1
+Summary: count    273373.000000
+mean          0.511930
+std          73.569821
+min          -2.217034
+25%          -0.113135
+50%           0.085721
+75%           0.339190
+max       34412.400000
+Skewness: 417.32
+Outliers: 20616 (7.54%)
+Lower bound: -0.7916, Upper bound: 1.0177
+
+Feature: inv_gr1
+Summary: count    273373.000000
+mean          0.976061
+std          74.658049
+min          -1.000000
+25%          -0.009174
+50%           0.066743
+75%           0.156862
+max       18508.121406
+Skewness: 192.94
+Outliers: 45240 (16.55%)
+Lower bound: -0.2582, Upper bound: 0.4059
+
+Feature: debt_gr3
+Summary: count    273373.000000
+mean         25.972200
+std        1322.354471
+min          -1.000000
+25%          -0.059841
+50%           0.237584
+75%           0.805835
+max      271183.500000
+Skewness: 142.02
+Outliers: 31884 (11.66%)
+Lower bound: -1.3584, Upper bound: 2.1043
+
+Feature: sale_gr3
+Summary: count    273373.000000
+mean          5.375822
+std         698.215705
+min          -1.000000
+25%           0.062503
+50%           0.251982
+75%           0.572149
+max      194798.000000
+Skewness: 248.04
+Outliers: 25391 (9.29%)
+Lower bound: -0.7020, Upper bound: 1.3366
+
+Feature: capx_gr3
+Summary: count    273373.000000
+mean          2.252888
+std         104.675021
+min          -2.668033
+25%          -0.102041
+50%           0.250000
+75%           0.761062
+max       16192.076923
+Skewness: 120.42
+Outliers: 25471 (9.32%)
+Lower bound: -1.3967, Upper bound: 2.0557
+
+Feature: inv_gr1a
+Summary: count    273373.000000
+mean          0.005962
+std           0.053195
+min         -11.399356
+25%          -0.000113
+50%           0.000228
+75%           0.008728
+max           0.713242
+Skewness: -130.13
+Outliers: 53172 (19.45%)
+Lower bound: -0.0134, Upper bound: 0.0220
+
+Feature: lti_gr1a
+Summary: count    273373.000000
+mean          0.004859
+std           0.067976
+min          -6.682745
+25%           0.000000
+50%           0.000000
+75%           0.001919
+max           0.691670
+Skewness: -49.50
+Outliers: 94471 (34.56%)
+Lower bound: -0.0029, Upper bound: 0.0048
+
+Feature: cowc_gr1a
+Summary: count    273373.000000
+mean          0.005315
+std           0.655346
+min          -1.932894
+25%          -0.012804
+50%           0.001593
+75%           0.017085
+max         148.898261
+Skewness: 213.02
+Outliers: 30931 (11.31%)
+Lower bound: -0.0576, Upper bound: 0.0619
+
+Feature: tax_gr1a
+Summary: count    273373.000000
+mean          0.002481
+std           0.029952
+min          -0.707910
+25%          -0.003502
+50%           0.001359
+75%           0.008978
+max           0.886778
+Skewness: 0.79
+Outliers: 39198 (14.34%)
+Lower bound: -0.0222, Upper bound: 0.0277
+
+Feature: ebit_sale
+Summary: count    273373.000000
+mean         -9.146331
+std        1743.398723
+min     -384068.000000
+25%           0.079651
+50%           0.141137
+75%           0.229692
+max           1.364932
+Skewness: -213.24
+Outliers: 23948 (8.76%)
+Lower bound: -0.1454, Upper bound: 0.4548
+
+Feature: gp_at
+Summary: count    273373.000000
+mean          0.281430
+std           0.237985
+min          -6.004728
+25%           0.113760
+50%           0.245203
+75%           0.397884
+max          18.617552
+Skewness: 5.31
+Outliers: 7624 (2.79%)
+Lower bound: -0.3124, Upper bound: 0.8241
+
+Feature: ope_be
+Summary: count    273373.000000
+mean          0.444547
+std          10.604246
+min        -564.592357
+25%           0.179085
+50%           0.262307
+75%           0.365419
+max        1417.333333
+Skewness: 110.31
+Outliers: 29236 (10.69%)
+Lower bound: -0.1004, Upper bound: 0.6449
+
+Feature: ni_be
+Summary: count    273373.000000
+mean          0.150527
+std           9.871895
+min        -908.000000
+25%           0.064014
+50%           0.122860
+75%           0.194447
+max        1179.888889
+Skewness: 4.37
+Outliers: 33640 (12.31%)
+Lower bound: -0.1316, Upper bound: 0.3901
+
+Feature: ebit_bev
+Summary: count    273373.000000
+mean          0.145757
+std          14.072209
+min       -3896.295000
+25%           0.090478
+50%           0.157972
+75%           0.267150
+max         708.000000
+Skewness: -181.61
+Outliers: 30225 (11.06%)
+Lower bound: -0.1745, Upper bound: 0.5322
+
+Feature: netis_at
+Summary: count    273373.000000
+mean         -0.061095
+std           0.214125
+min         -14.693518
+25%          -0.099407
+50%          -0.034863
+75%           0.001574
+max           8.403651
+Skewness: -6.68
+Outliers: 34275 (12.54%)
+Lower bound: -0.2509, Upper bound: 0.1530
+
+Feature: eqnetis_at
+Summary: count    273373.000000
+mean         -0.010831
+std           0.108550
+min          -2.568885
+25%          -0.031709
+50%          -0.002575
+75%           0.003039
+max           2.036774
+Skewness: 1.77
+Outliers: 44149 (16.15%)
+Lower bound: -0.0838, Upper bound: 0.0552
+
+Feature: dbnetis_at
+Summary: count    273373.000000
+mean         -0.049779
+std           0.185991
+min         -14.696121
+25%          -0.065882
+50%          -0.011027
+75%           0.000044
+max           8.390377
+Skewness: -10.43
+Outliers: 41842 (15.31%)
+Lower bound: -0.1648, Upper bound: 0.0989
+
+Feature: oaccruals_at
+Summary: count    273373.000000
+mean         -0.047792
+std           1.017186
+min        -237.227858
+25%          -0.073187
+50%          -0.041333
+75%          -0.015102
+max         168.977591
+Skewness: -85.79
+Outliers: 18600 (6.80%)
+Lower bound: -0.1603, Upper bound: 0.0720
+
+Feature: oaccruals_ni
+Summary: count    273373.000000
+mean         -2.835483
+std          83.218120
+min      -21069.512200
+25%          -1.560494
+50%          -0.695385
+75%          -0.244278
+max        9680.451613
+Skewness: -163.02
+Outliers: 32229 (11.79%)
+Lower bound: -3.5348, Upper bound: 1.7300
+
+Feature: taccruals_ni
+Summary: count    273373.000000
+mean         -4.134916
+std         107.966706
+min      -21099.000000
+25%          -2.239826
+50%          -0.833169
+75%          -0.101399
+max        8701.131387
+Skewness: -95.72
+Outliers: 37598 (13.75%)
+Lower bound: -5.4475, Upper bound: 3.1062
+
+Feature: opex_at
+Summary: count    273373.000000
+mean          0.674885
+std           0.936024
+min          -0.013911
+25%           0.244805
+50%           0.501490
+75%           0.867749
+max         197.317230
+Skewness: 102.83
+Outliers: 16051 (5.87%)
+Lower bound: -0.6896, Upper bound: 1.8022
+
+Feature: at_turnover
+Summary: count    273373.000000
+mean          0.835758
+std           0.744404
+min           0.000000
+25%           0.348636
+50%           0.665467
+75%           1.085383
+max          18.123524
+Skewness: 2.65
+Outliers: 14110 (5.16%)
+Lower bound: -0.7565, Upper bound: 2.1905
+
+Feature: sale_bev
+Summary: count    273373.000000
+mean          2.678961
+std          37.065831
+min           0.000000
+25%           0.640480
+50%           1.219620
+75%           2.137160
+max        9531.000000
+Skewness: 196.17
+Outliers: 21747 (7.96%)
+Lower bound: -1.6045, Upper bound: 4.3822
+
+Feature: cash_at
+Summary: count    273373.000000
+mean          0.144549
+std           0.172143
+min           0.000000
+25%           0.028636
+50%           0.076218
+75%           0.192020
+max           0.998723
+Skewness: 1.95
+Outliers: 21542 (7.88%)
+Lower bound: -0.2164, Upper bound: 0.4371
+
+Feature: sale_emp_gr1
+Summary: count    273373.000000
+mean          0.164307
+std           7.509816
+min          -1.000000
+25%          -0.026731
+50%           0.036351
+75%           0.106511
+max        1145.598729
+Skewness: 118.52
+Outliers: 30454 (11.14%)
+Lower bound: -0.2266, Upper bound: 0.3064
+
+Feature: emp_gr1
+Summary: count    273373.000000
+mean          0.064798
+std           0.194249
+min          -1.974940
+25%          -0.013567
+50%           0.040073
+75%           0.109890
+max           2.000000
+Skewness: 1.12
+Outliers: 29795 (10.90%)
+Lower bound: -0.1988, Upper bound: 0.2951
+
+Feature: ni_inc8q
+Summary: count    273373.000000
+mean          3.224115
+std           3.189534
+min           0.000000
+25%           0.000000
+50%           2.000000
+75%           7.000000
+max           8.000000
+Skewness: 0.45
+Outliers: 0 (0.00%)
+Lower bound: -10.5000, Upper bound: 17.5000
+
+Feature: ppeinv_gr1a
+Summary: count    273373.000000
+mean          0.123850
+std          17.506005
+min          -4.147035
+25%           0.008858
+50%           0.034112
+75%           0.073307
+max        5281.718487
+Skewness: 301.38
+Outliers: 29174 (10.67%)
+Lower bound: -0.0878, Upper bound: 0.1700
+
+Feature: lnoa_gr1a
+Summary: count    273373.000000
+mean          0.035178
+std           0.134673
+min         -23.035206
+25%          -0.003423
+50%           0.013046
+75%           0.042658
+max           1.648200
+Skewness: -53.00
+Outliers: 35552 (13.00%)
+Lower bound: -0.0725, Upper bound: 0.1118
+
+Feature: capx_gr2
+Summary: count    273373.000000
+mean          0.864746
+std          17.611331
+min          -2.964286
+25%          -0.121812
+50%           0.169391
+75%           0.575226
+max        2907.000000
+Skewness: 89.41
+Outliers: 23052 (8.43%)
+Lower bound: -1.1674, Upper bound: 1.6208
+
+Feature: saleq_gr1
+Summary: count    273373.000000
+mean          3.633621
+std         841.327118
+min         -14.257767
+25%          -0.000626
+50%           0.080872
+75%           0.196815
+max      251440.000000
+Skewness: 293.70
+Outliers: 30602 (11.19%)
+Lower bound: -0.2968, Upper bound: 0.4930
+
+Feature: niq_at
+Summary: count    273373.000000
+mean          0.015913
+std           0.556202
+min          -4.431999
+25%           0.003615
+50%           0.012513
+75%           0.024764
+max         171.997199
+Skewness: 259.08
+Outliers: 22656 (8.29%)
+Lower bound: -0.0281, Upper bound: 0.0565
+
+Feature: niq_be_chg1
+Summary: count    273373.000000
+mean         -0.022775
+std          13.287639
+min       -6803.492137
+25%          -0.010434
+50%           0.000508
+75%           0.011248
+max         628.743301
+Skewness: -489.92
+Outliers: 50369 (18.43%)
+Lower bound: -0.0430, Upper bound: 0.0438
+
+Feature: niq_at_chg1
+Summary: count    273373.000000
+mean          0.004646
+std           0.667963
+min          -8.376554
+25%          -0.004014
+50%           0.000233
+75%           0.004973
+max         161.420367
+Skewness: 206.92
+Outliers: 47621 (17.42%)
+Lower bound: -0.0175, Upper bound: 0.0185
+
+Feature: dsale_dinv
+Summary: count    273373.000000
+mean         -0.542244
+std          70.294186
+min      -19055.664700
+25%          -0.072013
+50%           0.009600
+75%           0.092695
+max        3043.533834
+Skewness: -227.05
+Outliers: 49770 (18.21%)
+Lower bound: -0.3191, Upper bound: 0.3398
+
+Feature: dsale_drec
+Summary: count    273373.000000
+mean          0.056066
+std          16.927042
+min       -1339.787762
+25%          -0.107210
+50%           0.001714
+75%           0.108303
+max        3204.833333
+Skewness: 115.77
+Outliers: 31267 (11.44%)
+Lower bound: -0.4305, Upper bound: 0.4316
+
+Feature: dgp_dsale
+Summary: count    273373.000000
+mean         -0.194246
+std          75.974607
+min      -13435.952380
+25%          -0.036832
+50%           0.008464
+75%           0.066041
+max        7383.352786
+Skewness: -130.67
+Outliers: 42090 (15.40%)
+Lower bound: -0.1911, Upper bound: 0.2203
+
+Feature: dsale_dsga
+Summary: count    273373.000000
+mean          0.096651
+std          11.322992
+min         -99.389799
+25%          -0.035021
+50%           0.008416
+75%           0.052822
+max        3056.897500
+Skewness: 233.51
+Outliers: 43214 (15.81%)
+Lower bound: -0.1668, Upper bound: 0.1846
+
+Feature: saleq_su
+Summary: count    273373.000000
+mean          0.284059
+std          12.382095
+min         -60.280516
+25%          -0.825856
+50%           0.221710
+75%           1.178593
+max        3460.808678
+Skewness: 247.56
+Outliers: 9949 (3.64%)
+Lower bound: -3.8325, Upper bound: 4.1853
+
+Feature: niq_su
+Summary: count    273373.000000
+mean         -0.075549
+std           4.493066
+min        -378.119559
+25%          -0.678172
+50%           0.012161
+75%           0.728180
+max         901.957757
+Skewness: 79.02
+Outliers: 25286 (9.25%)
+Lower bound: -2.7877, Upper bound: 2.8377
+
+Feature: capex_abn
+Summary: count    273373.000000
+mean          0.050638
+std           1.790746
+min        -146.144668
+25%          -0.227748
+50%          -0.037272
+75%           0.170625
+max         627.703779
+Skewness: 178.90
+Outliers: 17179 (6.28%)
+Lower bound: -0.8253, Upper bound: 0.7682
+
+Feature: op_atl1
+Summary: count    273373.000000
+mean          0.165714
+std           3.104403
+min       -1135.577465
+25%           0.087417
+50%           0.150994
+75%           0.236208
+max         109.039916
+Skewness: -357.80
+Outliers: 12430 (4.55%)
+Lower bound: -0.1358, Upper bound: 0.4594
+
+Feature: gp_atl1
+Summary: count    273373.000000
+mean          0.330599
+std           1.382653
+min          -7.416758
+25%           0.126180
+50%           0.273843
+75%           0.456976
+max         461.492958
+Skewness: 286.09
+Outliers: 9177 (3.36%)
+Lower bound: -0.3700, Upper bound: 0.9532
+
+Feature: ope_bel1
+Summary: count    273373.000000
+mean          0.576324
+std          14.018271
+min        -106.767580
+25%           0.197616
+50%           0.292618
+75%           0.414530
+max        1995.608696
+Skewness: 104.46
+Outliers: 29157 (10.67%)
+Lower bound: -0.1278, Upper bound: 0.7399
+
+Feature: cop_atl1
+Summary: count    273373.000000
+mean          0.225675
+std           3.646909
+min        -805.893709
+25%           0.130110
+50%           0.207637
+75%           0.306760
+max         713.987395
+Skewness: -2.34
+Outliers: 11871 (4.34%)
+Lower bound: -0.1349, Upper bound: 0.5717
+
+Feature: pi_nix
+Summary: count    273373.000000
+mean          1.636286
+std           8.373759
+min           0.001230
+25%           1.294976
+50%           1.452514
+75%           1.579072
+max        1488.656934
+Skewness: 120.75
+Outliers: 23382 (8.55%)
+Lower bound: 0.8688, Upper bound: 2.0052
+
+Feature: ocf_at
+Summary: count    273373.000000
+mean          0.096758
+std           0.167220
+min          -5.910165
+25%           0.048458
+50%           0.092162
+75%           0.142463
+max          40.334944
+Skewness: 151.60
+Outliers: 11869 (4.34%)
+Lower bound: -0.0925, Upper bound: 0.2835
+
+Feature: op_at
+Summary: count    273373.000000
+mean          0.150266
+std           0.135373
+min          -6.004728
+25%           0.080231
+50%           0.137414
+75%           0.206460
+max          18.617552
+Skewness: 25.50
+Outliers: 9407 (3.44%)
+Lower bound: -0.1091, Upper bound: 0.3958
+
+Feature: ocf_at_chg1
+Summary: count    273373.000000
+mean          0.002934
+std           0.161645
+min         -42.093108
+25%          -0.020046
+50%           0.000975
+75%           0.023153
+max           3.889038
+Skewness: -193.44
+Outliers: 30220 (11.05%)
+Lower bound: -0.0848, Upper bound: 0.0880
+
+Feature: at_be
+Summary: count    273373.000000
+mean          5.113557
+std          59.937575
+min           1.000000
+25%           1.738433
+50%           2.359947
+75%           3.657555
+max        9294.888889
+Skewness: 99.80
+Outliers: 37983 (13.89%)
+Lower bound: -1.1402, Upper bound: 6.5362
+
+Feature: ocfq_saleq_std
+Summary: count    273373.000000
+mean          4.095791
+std         192.656362
+min           0.004413
+25%           0.060866
+50%           0.093420
+75%           0.153216
+max       19808.460217
+Skewness: 73.20
+Outliers: 28037 (10.26%)
+Lower bound: -0.0777, Upper bound: 0.2917
+
+Feature: tangibility
+Summary: count    273373.000000
+mean          0.543542
+std           0.201416
+min           0.000000
+25%           0.419984
+50%           0.552871
+75%           0.670047
+max           2.973495
+Skewness: 0.30
+Outliers: 2797 (1.02%)
+Lower bound: 0.0449, Upper bound: 1.0451
+
+Feature: earnings_variability
+Summary: count    273373.000000
+mean          1.138151
+std           1.635418
+min           0.004765
+25%           0.507573
+50%           0.815021
+75%           1.232378
+max         113.760287
+Skewness: 14.86
+Outliers: 22666 (8.29%)
+Lower bound: -0.5796, Upper bound: 2.3196
+
+Feature: f_score
+Summary: count    273373.000000
+mean          5.398082
+std           1.413357
+min           0.000000
+25%           5.000000
+50%           5.000000
+75%           6.000000
+max           9.000000
+Skewness: -0.09
+Outliers: 42191 (15.43%)
+Lower bound: 3.5000, Upper bound: 7.5000
+
+Feature: o_score
+Summary: count    273373.000000
+mean         -3.608027
+std          11.454942
+min       -3245.908239
+25%          -4.515734
+50%          -3.603466
+75%          -2.742343
+max         107.911157
+Skewness: -253.20
+Outliers: 12814 (4.69%)
+Lower bound: -7.1758, Upper bound: -0.0823
+
+Feature: z_score
+Summary: count    273373.000000
+mean          8.089067
+std         277.670159
+min         -55.751577
+25%           2.028731
+50%           3.287094
+75%           5.113606
+max       49871.423784
+Skewness: 122.17
+Outliers: 26693 (9.76%)
+Lower bound: -2.5986, Upper bound: 9.7409
+
+Feature: intrinsic_value
+Summary: count    2.733730e+05
+mean     1.027183e+04
+std      3.659400e+04
+min      2.842171e-14
+25%      1.434206e+03
+50%      2.868186e+03
+75%      6.631883e+03
+max      1.762241e+06
+Skewness: 17.44
+Outliers: 36366 (13.30%)
+Lower bound: -6362.3077, Upper bound: 14428.3968
+
+Feature: kz_index
+Summary: count    273373.000000
+mean        -14.508190
+std         257.626769
+min      -73571.013700
+25%         -10.766319
+50%          -2.808211
+75%           0.218331
+max        1291.175011
+Skewness: -219.16
+Outliers: 30636 (11.21%)
+Lower bound: -27.2433, Upper bound: 16.6953
+
+Feature: ni_ar1
+Summary: count    273373.000000
+mean          0.134630
+std           0.821207
+min         -70.685456
+25%          -0.179383
+50%           0.106449
+75%           0.404637
+max          30.267723
+Skewness: -15.10
+Outliers: 13557 (4.96%)
+Lower bound: -1.0554, Upper bound: 1.2807
+
+Feature: ni_ivol
+Summary: count    273373.000000
+mean          0.033749
+std           0.113542
+min           0.000050
+25%           0.008442
+50%           0.017008
+75%           0.032789
+max          16.785420
+Skewness: 70.13
+Outliers: 27317 (9.99%)
+Lower bound: -0.0281, Upper bound: 0.0693
+
+Feature: at_me
+Summary: count    273373.000000
+mean          1.876226
+std           4.978977
+min           0.000068
+25%           0.437785
+50%           0.870256
+75%           1.801981
+max         904.815537
+Skewness: 54.76
+Outliers: 29671 (10.85%)
+Lower bound: -1.6085, Upper bound: 3.8483
+
+Feature: be_me
+Summary: count    273373.000000
+mean          0.459725
+std           0.428034
+min           0.000004
+25%           0.203701
+50%           0.362466
+75%           0.605746
+max          63.005526
+Skewness: 17.53
+Outliers: 11357 (4.15%)
+Lower bound: -0.3994, Upper bound: 1.2088
+
+Feature: netdebt_me
+Summary: count    273373.000000
+mean          0.335612
+std           2.046855
+min         -17.238295
+25%          -0.018395
+50%           0.121775
+75%           0.397178
+max         593.648630
+Skewness: 156.26
+Outliers: 23890 (8.74%)
+Lower bound: -0.6418, Upper bound: 1.0205
+
+Feature: sale_me
+Summary: count    273373.000000
+mean          0.853130
+std           1.294592
+min           0.000000
+25%           0.263290
+50%           0.508774
+75%           0.975537
+max         139.318333
+Skewness: 15.21
+Outliers: 21670 (7.93%)
+Lower bound: -0.8051, Upper bound: 2.0439
+
+Feature: ni_me
+Summary: count    273373.000000
+mean          0.033564
+std           0.281903
+min         -54.381775
+25%           0.022413
+50%           0.044484
+75%           0.065992
+max           5.925546
+Skewness: -94.47
+Outliers: 25978 (9.50%)
+Lower bound: -0.0430, Upper bound: 0.1314
+
+Feature: ocf_me
+Summary: count    273373.000000
+mean          0.093109
+std           0.210154
+min         -25.775735
+25%           0.044493
+50%           0.075433
+75%           0.122176
+max          61.682950
+Skewness: 99.49
+Outliers: 20958 (7.67%)
+Lower bound: -0.0720, Upper bound: 0.2387
+
+Feature: fcf_me
+Summary: count    273373.000000
+mean          0.042025
+std           0.202395
+min         -25.775735
+25%           0.015543
+50%           0.042354
+75%           0.071386
+max          61.682950
+Skewness: 92.06
+Outliers: 30341 (11.10%)
+Lower bound: -0.0682, Upper bound: 0.1552
+
+Feature: eqpo_me
+Summary: count    273373.000000
+mean          0.040227
+std           0.056021
+min          -0.810473
+25%           0.008641
+50%           0.028249
+75%           0.051961
+max           8.088344
+Skewness: 17.80
+Outliers: 15329 (5.61%)
+Lower bound: -0.0563, Upper bound: 0.1169
+
+Feature: eqnpo_me
+Summary: count    273373.000000
+mean          0.024029
+std           0.117369
+min         -26.129284
+25%           0.000105
+50%           0.020188
+75%           0.045701
+max           2.347553
+Skewness: -85.00
+Outliers: 24020 (8.79%)
+Lower bound: -0.0683, Upper bound: 0.1141
+
+Feature: rd_me
+Summary: count    273373.000000
+mean          0.019963
+std           0.037267
+min          -0.000008
+25%           0.012829
+50%           0.013946
+75%           0.015092
+max           6.839056
+Skewness: 56.32
+Outliers: 116925 (42.77%)
+Lower bound: 0.0094, Upper bound: 0.0185
+
+Feature: ebitda_mev
+Summary: count    273373.000000
+mean          0.119191
+std           6.137427
+min         -92.643128
+25%           0.058419
+50%           0.088321
+75%           0.123778
+max        2885.213001
+Skewness: 413.92
+Outliers: 16755 (6.13%)
+Lower bound: -0.0396, Upper bound: 0.2218
+
+Feature: aliq_mat
+Summary: count    273373.000000
+mean          0.327156
+std           0.198614
+min           0.000073
+25%           0.197131
+50%           0.292858
+75%           0.427192
+max          36.959740
+Skewness: 25.02
+Outliers: 5363 (1.96%)
+Lower bound: -0.1480, Upper bound: 0.7723
+
+Feature: eq_dur
+Summary: count    273373.000000
+mean         17.256493
+std          39.304381
+min           0.007605
+25%          15.861359
+50%          17.060012
+75%          17.934676
+max        9046.011029
+Skewness: 177.65
+Outliers: 15557 (5.69%)
+Lower bound: 12.7514, Upper bound: 21.0447
+
+Feature: beta_60m
+Summary: count    273373.000000
+mean          1.103324
+std           0.636470
+min          -1.010003
+25%           0.686915
+50%           1.032247
+75%           1.406912
+max           6.696646
+Skewness: 1.24
+Outliers: 9410 (3.44%)
+Lower bound: -0.3931, Upper bound: 2.4869
+
+Feature: resff3_12_1
+Summary: count    273373.000000
+mean         -0.009003
+std           0.263735
+min          -2.398681
+25%          -0.170013
+50%          -0.004909
+75%           0.156467
+max           1.992567
+Skewness: -0.11
+Outliers: 5511 (2.02%)
+Lower bound: -0.6597, Upper bound: 0.6462
+
+Feature: resff3_6_1
+Summary: count    273373.000000
+mean         -0.020669
+std           0.557677
+min         -34.859576
+25%          -0.303113
+50%          -0.007460
+75%           0.276701
+max          12.394853
+Skewness: -1.13
+Outliers: 10898 (3.99%)
+Lower bound: -1.1728, Upper bound: 1.1464
+
+Feature: mispricing_mgmt
+Summary: count    273373.000000
+mean          0.512090
+std           0.159834
+min           0.004001
+25%           0.408191
+50%           0.524731
+75%           0.629034
+max           0.976062
+Skewness: -0.34
+Outliers: 872 (0.32%)
+Lower bound: 0.0769, Upper bound: 0.9603
+
+Feature: mispricing_perf
+Summary: count    273373.000000
+mean          0.617056
+std           0.156436
+min           0.022242
+25%           0.511166
+50%           0.626683
+75%           0.732854
+max           0.997725
+Skewness: -0.32
+Outliers: 1176 (0.43%)
+Lower bound: 0.1786, Upper bound: 1.0654
+
+Feature: iskew_capm_21d
+Summary: count    273373.000000
+mean          0.115764
+std           1.027718
+min          -4.534872
+25%          -0.398975
+50%           0.096744
+75%           0.610200
+max           4.771952
+Skewness: 0.09
+Outliers: 18987 (6.95%)
+Lower bound: -1.9127, Upper bound: 2.1240
+
+Feature: coskew_21d
+Summary: count    273373.000000
+mean         -0.001263
+std           0.311924
+min          -1.593087
+25%          -0.206492
+50%          -0.003638
+75%           0.201451
+max           1.805802
+Skewness: 0.03
+Outliers: 3484 (1.27%)
+Lower bound: -0.8184, Upper bound: 0.8134
+
+Feature: beta_dimson_21d
+Summary: count    273373.000000
+mean          1.112152
+std           1.258789
+min         -42.337308
+25%           0.467413
+50%           1.008044
+75%           1.636533
+max          68.666534
+Skewness: 0.83
+Outliers: 15331 (5.61%)
+Lower bound: -1.2863, Upper bound: 3.3902
+
+Feature: iskew_ff3_21d
+Summary: count    273373.000000
+mean          0.097744
+std           0.924526
+min          -4.400646
+25%          -0.380566
+50%           0.080527
+75%           0.559435
+max           4.534975
+Skewness: 0.10
+Outliers: 16860 (6.17%)
+Lower bound: -1.7906, Upper bound: 1.9694
+
+Feature: iskew_hxz4_21d
+Summary: count    273373.000000
+mean          0.089516
+std           0.866479
+min          -4.349209
+25%          -0.369211
+50%           0.074226
+75%           0.529449
+max           4.696086
+Skewness: 0.10
+Outliers: 15359 (5.62%)
+Lower bound: -1.7172, Upper bound: 1.8774
+
+Feature: rmax1_21d
+Summary: count    273373.000000
+mean          0.047455
+std           0.045192
+min           0.000573
+25%           0.023751
+50%           0.035354
+75%           0.055462
+max           3.012097
+Skewness: 9.73
+Outliers: 19694 (7.20%)
+Lower bound: -0.0238, Upper bound: 0.1030
+
+Feature: rvol_21d
+Summary: count    273373.000000
+mean          0.021932
+std           0.015725
+min           0.000292
+25%           0.012461
+50%           0.017747
+75%           0.026040
+max           0.710864
+Skewness: 4.25
+Outliers: 17159 (6.28%)
+Lower bound: -0.0079, Upper bound: 0.0464
+
+Feature: rskew_21d
+Summary: count    273373.000000
+mean          0.094186
+std           0.940251
+min          -4.500346
+25%          -0.377447
+50%           0.076251
+75%           0.542191
+max           4.789774
+Skewness: 0.16
+Outliers: 17542 (6.42%)
+Lower bound: -1.7569, Upper bound: 1.9216
+
+Feature: zero_trades_21d
+Summary: count    273373.000000
+mean          0.003490
+std           0.006621
+min           0.000002
+25%           0.001750
+50%           0.003290
+75%           0.004969
+max           1.052650
+Skewness: 135.59
+Outliers: 49 (0.02%)
+Lower bound: -0.0031, Upper bound: 0.0098
+
+Feature: dolvol_126d
+Summary: count    2.733730e+05
+mean     1.474243e+08
+std      5.056914e+08
+min      1.335602e+05
+25%      2.489788e+07
+50%      5.619586e+07
+75%      1.352443e+08
+max      3.110989e+10
+Skewness: 25.51
+Outliers: 27149 (9.93%)
+Lower bound: -140621768.4970, Upper bound: 300763967.4281
+
+Feature: turnover_126d
+Summary: count    273373.000000
+mean          0.009973
+std           0.009306
+min           0.000094
+25%           0.005195
+50%           0.007742
+75%           0.011933
+max           0.546429
+Skewness: 10.57
+Outliers: 16668 (6.10%)
+Lower bound: -0.0049, Upper bound: 0.0220
+
+Feature: turnover_var_126d
+Summary: count    273373.000000
+mean          0.606001
+std           0.291897
+min           0.153040
+25%           0.434000
+50%           0.524743
+75%           0.674485
+max           6.976676
+Skewness: 3.21
+Outliers: 18762 (6.86%)
+Lower bound: 0.0733, Upper bound: 1.0352
+
+Feature: zero_trades_126d
+Summary: count    273373.000000
+mean          0.003614
+std           0.006607
+min           0.000002
+25%           0.001818
+50%           0.003390
+75%           0.005089
+max           1.640811
+Skewness: 147.94
+Outliers: 80 (0.03%)
+Lower bound: -0.0031, Upper bound: 0.0100
+
+Feature: zero_trades_252d
+Summary: count    273373.000000
+mean          0.003918
+std           0.022977
+min           0.000002
+25%           0.001866
+50%           0.003456
+75%           0.005153
+max           3.917013
+Skewness: 107.42
+Outliers: 225 (0.08%)
+Lower bound: -0.0031, Upper bound: 0.0101
+
+Feature: ami_126d
+Summary: count    2.733730e+05
+mean     9.379841e-04
+std      5.705224e-03
+min      7.500000e-07
+25%      1.056600e-04
+50%      2.857000e-04
+75%      6.830100e-04
+max      1.246409e+00
+Skewness: 85.93
+Outliers: 30202 (11.05%)
+Lower bound: -0.0008, Upper bound: 0.0015
+
+Feature: ivol_capm_252d
+Summary: count    273373.000000
+mean          0.019580
+std           0.011592
+min           0.001650
+25%           0.012153
+50%           0.016516
+75%           0.023329
+max           0.284564
+Skewness: 2.99
+Outliers: 15354 (5.62%)
+Lower bound: -0.0046, Upper bound: 0.0401
+
+Feature: prc_highprc_252d
+Summary: count    273373.000000
+mean          0.840185
+std           0.160799
+min           0.008564
+25%           0.770509
+50%           0.890218
+75%           0.960836
+max           1.000000
+Skewness: -1.56
+Outliers: 12031 (4.40%)
+Lower bound: 0.4850, Upper bound: 1.2463
+
+Feature: betadown_252d
+Summary: count    273373.000000
+mean          1.056036
+std           0.524751
+min         -17.332732
+25%           0.728776
+50%           1.000286
+75%           1.314113
+max           6.086583
+Skewness: 0.49
+Outliers: 8968 (3.28%)
+Lower bound: -0.1492, Upper bound: 2.1921
+
+Feature: bidaskhl_21d
+Summary: count    273373.000000
+mean          0.007448
+std           0.004787
+min           0.000000
+25%           0.004452
+50%           0.006174
+75%           0.008876
+max           0.067042
+Skewness: 2.57
+Outliers: 16276 (5.95%)
+Lower bound: -0.0022, Upper bound: 0.0155
+
+Feature: corr_1260d
+Summary: count    273373.000000
+mean          0.522471
+std           0.146134
+min          -0.100863
+25%           0.427436
+50%           0.535293
+75%           0.629581
+max           0.881086
+Skewness: -0.41
+Outliers: 1714 (0.63%)
+Lower bound: 0.1242, Upper bound: 0.9328
+
+Feature: betabab_1260d
+Summary: count    273373.000000
+mean          1.053605
+std           0.455897
+min          -0.176475
+25%           0.744680
+50%           1.003486
+75%           1.297999
+max           5.772676
+Skewness: 0.91
+Outliers: 6497 (2.38%)
+Lower bound: -0.0853, Upper bound: 2.1280
+
+Feature: rmax5_rvol_21d
+Summary: count    273373.000000
+mean          1.191525
+std           0.486825
+min          -0.011326
+25%           0.860377
+50%           1.113612
+75%           1.432014
+max           5.548994
+Skewness: 1.26
+Outliers: 8397 (3.07%)
+Lower bound: 0.0029, Upper bound: 2.2895
+
+Feature: age
+Summary: count    273373.000000
+mean        397.634858
+std         269.874426
+min          18.000000
+25%         179.000000
+50%         321.000000
+75%         588.000000
+max        1175.000000
+Skewness: 0.81
+Outliers: 0 (0.00%)
+Lower bound: -434.5000, Upper bound: 1201.5000
+
+Feature: qmj
+Summary: count    273373.000000
+mean          0.336078
+std           0.861377
+min          -1.731325
+25%          -0.293138
+50%           0.400206
+75%           1.057675
+max           1.731424
+Skewness: -0.32
+Outliers: 0 (0.00%)
+Lower bound: -2.3194, Upper bound: 3.0839
+
+Feature: qmj_prof
+Summary: count    273373.000000
+mean          0.530107
+std           0.869869
+min          -1.731100
+25%          -0.100884
+50%           0.689863
+75%           1.281262
+max           1.731602
+Skewness: -0.55
+Outliers: 0 (0.00%)
+Lower bound: -2.1741, Upper bound: 3.3545
+
+Feature: qmj_growth
+Summary: count    273373.000000
+mean          0.102173
+std           0.871512
+min          -1.731136
+25%          -0.579024
+50%           0.125208
+75%           0.818381
+max           1.731420
+Skewness: -0.11
+Outliers: 0 (0.00%)
+Lower bound: -2.6751, Upper bound: 2.9145
+
+Feature: qmj_safety
+Summary: count    273373.000000
+mean          0.156397
+std           0.831338
+min          -1.730377
+25%          -0.468466
+50%           0.201884
+75%           0.814342
+max           1.731522
+Skewness: -0.18
+Outliers: 0 (0.00%)
+Lower bound: -2.3927, Upper bound: 2.7386
+

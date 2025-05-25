@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+data/raw/
+data/processed/
+data/splits/
+models/
+figures/
+plots/
+*.log
+*.csv
+!requirements.txt
+!baseline_results.csv
+!xgb_results.csv
+!ridge_oos_predictions.csv
+!portfolio_ret.csv 

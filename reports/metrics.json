@@ -1,0 +1,20 @@
+{
+    "return_metrics": {
+        "avg_monthly_return": 0.0010154691375710743,
+        "return_volatility": 0.04913665167236457,
+        "sharpe_ratio": 0.023301212513484933,
+        "max_drawdown": -0.6437098898213732,
+        "max_monthly_loss": -0.1623963401439999
+    },
+    "risk_metrics": {
+        "beta": -0.21594425367979553,
+        "alpha": 0.0022108468453521627,
+        "information_ratio": -0.11800679388713477
+    },
+    "turnover_metrics": {
+        "avg_monthly_turnover": 0.45560240963855425
+    },
+    "custom_oos_r2": {
+        "value": -0.0024468203204242034
+    }
+}

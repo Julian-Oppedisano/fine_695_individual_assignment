@@ -1,0 +1,24 @@
+=== Target Transformation Analysis ===
+
+Original Distribution Statistics:
+Skewness: 0.5688
+Kurtosis: 12.8714
+Shapiro-Wilk Test: W=0.9187, p-value=6.1373e-127
+Interpretation: p-value < 0.05 indicates non-normal distribution
+
+Transformation Results:
+
+YEO_JOHNSON Transformation:
+Skewness: -0.0207
+Kurtosis: 8.5986
+Shapiro-Wilk Test: W=0.9249, p-value=1.3091e-124
+
+WINSORIZED Transformation:
+Skewness: -0.0679
+Kurtosis: 0.2969
+Shapiro-Wilk Test: W=0.9850, p-value=4.7456e-82
+
+RANK Transformation:
+Skewness: 0.0000
+Kurtosis: -1.2004
+Shapiro-Wilk Test: W=0.9542, p-value=1.3279e-110
